@@ -11,11 +11,13 @@ public class SimpleFactory {
 	 * @param kind 水果种类
 	 * @return kind种类的水果
 	 */
-	public IFruit produce(String kind){
+	public static IFruit produce(String kind){
 		if("apple".equals(kind)){
 			return new Apple();
 		}else if("strawberry".equals(kind)){
 			return new Strawberry();
+		}else if("grape".equals(kind)){
+			return new Grape();
 		}
 		return null;
 	}

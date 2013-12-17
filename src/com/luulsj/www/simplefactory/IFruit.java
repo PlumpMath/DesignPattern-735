@@ -1,10 +1,15 @@
 package com.luulsj.www.simplefactory;
 /**
  * 水果接口
- * @author nicolos
+ * @author Astah
  *
  */
 public interface IFruit {
+	
+	/**
+	 * 水果种植
+	 */
+	public void plant();
 	
 	/**
 	 * 水果生长

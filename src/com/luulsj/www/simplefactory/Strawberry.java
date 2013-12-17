@@ -16,4 +16,9 @@ public class Strawberry implements IFruit {
 		System.out.println("strawberry.pick() invoked!");
 	}
 
+	@Override
+	public void plant() {
+		System.out.println("strawberry is planted!");
+	}
+
 }
