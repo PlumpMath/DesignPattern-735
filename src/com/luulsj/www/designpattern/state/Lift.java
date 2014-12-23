@@ -12,7 +12,7 @@ public class Lift extends AbstractLift{
 	
 	@Override
 	public void setState(int state) {
-		this.state = state;
+		Lift.state = state;
 	}
 
 	@Override

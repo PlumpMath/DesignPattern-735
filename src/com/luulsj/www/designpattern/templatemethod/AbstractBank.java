@@ -5,7 +5,8 @@ package com.luulsj.www.designpattern.templatemethod;
  * @date 2014年12月23日16:49:16
  */
 abstract class AbstractBank {
-	private int number;
+	@SuppressWarnings("unused")
+	private static int number = 1;
 	
 	public final void templateMethodProcess(){
 		takeNumber();
@@ -20,7 +21,7 @@ abstract class AbstractBank {
 	 * 取号
 	 */
 	private void takeNumber(){
-		this.number++;
+		AbstractBank.number++;
 	}
 	
 	/**
